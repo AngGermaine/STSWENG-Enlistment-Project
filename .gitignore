@@ -19,3 +19,26 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Ignore IntelliJ IDEA related files
+.idea/
+*.iml
+
+# Ignore generated class files
+*.class
+
+# Ignore JAR, WAR, and EAR files
+*.jar
+*.war
+*.ear
+
+# Ignore log files
+*.log
+
+# macOS specific files
+.DS_Store
+
+# Ignore Gradle build output directory
+build
+
+
